@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.CalcContainer {
+  width: 300px;
+  border: 2px solid #333;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.DispContainer {
+  border: 1px solid #333;
+  height: 50px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.Display {
+  font-size: 2em;
+  color: black;
+}
+
+.ButtonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  margin-top: 10px;
+}
+
+.ButtonContainer > button {
+  font-size: 1.5em;
+  background-color: orange;
+  color: black;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ButtonContainer > button:hover {
+  background-color: #ffcc80;
+}
+
+.ButtonContainer > button:active {
+  background-color: #e65c00;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
